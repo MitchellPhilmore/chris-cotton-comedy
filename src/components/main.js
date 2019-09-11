@@ -5,6 +5,7 @@ import img2 from '../images/chris-cotton-album1.PNG'
 import img3 from '../images/chris-cotton-album2.JPG'
 import chrisvid1 from '../images/chrisvid1.mp4'
 import chrisvid2 from '../images/chris-cotton-vid2.MP4'
+import chrisbackground from '../images/chrisbackground-2.JPG'
 class Main extends Component {
   render() {
     return (
@@ -12,7 +13,8 @@ class Main extends Component {
        
      
         <section className="intro">
-            <h2>Bio</h2>
+    
+            <img style={{width:'70vh',textAlign:'center'}} src={chrisbackground}></img>
             <div>
              <p>Chris Cotton began performing Stand Up Comedy in the same city where he was born and
 raised in (Philadelphia, Pennsylvania). Chris worked as a Digital Creator at Comedy Central,
@@ -67,25 +69,29 @@ performing Chris enjoys spending time with his lovely wife.</p>
 
 
         
-        <div className="gallery">
+        <div  className="gallery">
          {/* <div className="gallery-item-one"></div>
          <div className="gallery-item-two"></div>
          <div className="gallery-item-three"></div>
          <div className="gallery-item-four"></div>
          <div className="gallery-item-five"></div>
          <div className="gallery-item-six"></div> */}
-         <video controls autoplay>
+         {/* <video controls autoplay>
            <source src={chrisvid1} type="video/mp4"></source>
-         </video>
+         </video> */}
+         
+
         
          
         </div>
 
         <section>
-            <h2>Our Mission</h2>
+            <h2>
+
+
+            </h2>
             <div>
-              <p>Integer sit amet venenatis erat. Cras elementum tortor odio, sit amet euismod nunc cursus ut. Donec sollicitudin orci sed enim volutpat, volutpat rutrum magna semper. Fusce leo lacus, pulvinar sit amet dignissim in, consectetur eget nulla. Etiam ac turpis augue. Sed tincidunt pulvinar tincidunt. Integer ac blandit magna. Nulla dapibus convallis luctus. </p>
-              <p>Ut elementum urna sit amet elit egestas hendrerit. Vivamus quis sem fringilla, tincidunt nisi non, congue libero. Etiam cursus nulla quis sapien varius, eget accumsan augue mattis. Cras accumsan sapien nulla, eu eleifend odio tempus sit amet. Suspendisse gravida hendrerit sapien, ut molestie mi pellentesque eget. Aliquam eleifend velit vel libero elementum, vitae consectetur nisl sollicitudin. Suspendisse volutpat fringilla vehicula.</p>
+             
               </div>
         </section>
 
