@@ -14,7 +14,7 @@ class Main extends Component {
      
         <section className="intro">
     
-            <img style={{width:'70vh',textAlign:'center'}} src={chrisbackground}></img>
+            <img style={{width:'50vh',textAlign:'center'}} src={chrisbackground}></img>
             <div>
              <p>Chris Cotton began performing Stand Up Comedy in the same city where he was born and
 raised in (Philadelphia, Pennsylvania). Chris worked as a Digital Creator at Comedy Central,
